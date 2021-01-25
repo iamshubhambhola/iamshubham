@@ -378,10 +378,10 @@
         font-size: 10px;
     }
     .h-nav{
-        height: 75vh;
+        height: 60vh;
     }
     .box-main{
-        height: 105vh;
+        height: 85vh;
     }
     .secondhalf{
         height: 30vh;
@@ -445,16 +445,16 @@
         width: 90%;
     }
     .hobbies{
-        font-size: 20px;
-        height: 3.8vh;
+        font-size: 24.3px;
+        height: 4vh;
         width: 25%; 
     }
     .hobbyimgs img{
         height: 4vh;
-        width: 57%;
+        width: 55%;
     }
     .e img{
-        width: 55%;
+        width: 53%;
     }
     .fifthsection{
         height: 90vh;
@@ -478,7 +478,10 @@
 }
 @media only screen and (max-width:490px){
     .h-nav{
-        height: 61vh;
+        height: 50vh;
+    }
+    .box-main{
+        height: 70vh;
     }
     .bigtext1{
         line-height: 140%;
@@ -492,15 +495,15 @@
         line-height: 100%;
     }
     .point1{
-        font-size: 3.5px;
+        font-size: 3px;
         height: 2vh;
     }
     .point2{
-        font-size: 3.5px;
+        font-size: 3px;
         height: 2vh;
     }
     .point3{
-        font-size: 3.5px;
+        font-size: 3px;
         height: 2vh;
     }
     .innersection{
@@ -508,8 +511,8 @@
        height: 15vh;
     }
     .hobbies{
-       font-size: 18px;
-       height: 3.8vh;
+       font-size: 24px;
+       height: 4vh;
     }
     .myskills{
         font-size: 20px;   
