@@ -211,12 +211,14 @@
     font-size: 42px;
     color: white;
     font-family: cursive;
+    height: 10vh;
     width: 49%;
     
 }
 .hobbyimgs img{
     width: 80%;
     border: 2px solid white;
+    height: 7vh;
     border-radius: 200px;
     display: block;
 }
@@ -264,6 +266,8 @@
 }
 .stars{
     width: 50%;
+    display: flex;
+    flex-direction: column;
     font-size: 44px;
     line-height: 170%;
     color: gold;
@@ -299,10 +303,58 @@
 
 
 
+@media only screen and (max-width: 1500px){
+    .innersection1{
+        width: 70%;
+    }
+    .point1{
+        font-size: 20px;
+        padding: 13px 9px;
+        height: 10vh;
+    }
+    .point2{
+        font-size: 20px;
+        padding: 13px 9px;
+        height: 10vh;
+    }
+    .point3{
+        font-size: 20px;
+        padding: 13px 9px;
+        height: 10vh;
+    }
+    .hobbyimgs img{
+        height: 6.5vh;
+    }
+    .hobbies{
+        height: 6vh;
+    }
+    .innersection2{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .point1{
+        font-size: 10px;
+        padding: 13px 9px;
+        height: 7vh;
+    }
+    .point2{
+        font-size: 11px;
+        padding: 13px 9px;
+        height: 7vh;
+    }
+    .point3{
+        font-size: 11px;
+        padding: 13px 9px;
+        height: 7vh;
+    }
+}
 
 @media only screen and (max-width: 900px){
     .nav-list{
         flex-direction: column;
+        line-height: 40%;
+        height: 20vh;
     }
     .navbar{
         flex-direction: column;
@@ -326,19 +378,19 @@
         font-size: 10px;
     }
     .h-nav{
-        height: 50vh;
+        height: 75vh;
     }
     .box-main{
-        height: 65vh;
+        height: 105vh;
     }
     .secondhalf{
         height: 30vh;
     }
     .secondhalf img{
-        width: 100%;    
+        width: 120%;    
     }
     .firsthalf{
-        line-height: 180%;
+        line-height: 110%;
     }
     .bigtext1{
         line-height: 90%;
@@ -364,23 +416,23 @@
         font-size: 120%; 
     }
     .innersection{
-         border-style: double;
-         border-color: gray;
-         height: 13vh;
+        height: 13vh;
+        width: 87%;
     }
     .point1{
-         font-size: 3px;
-         border-color: darkgray;
+         font-size: 6px;
+         line-height: 179%;
+         height: 4vh;
     }
     .point2{
          font-size: 6px;
-         line-height: 130%;
-         border-color: darkgray;
+         line-height: 180%;
+         height: 4vh;
     }
     .point3{
          font-size: 6px;
          line-height: 180%;
-         border-color: darkgray;
+         height: 4vh;
     }
     .fourthsection{
         background-color: darkgray;
@@ -390,22 +442,22 @@
         font-size: 40px;
     }
     .innersection1{
-        width: 80%;
+        width: 90%;
     }
     .hobbies{
-        font-size: 25px;
+        font-size: 20px;
         height: 3.8vh;
         width: 25%; 
     }
     .hobbyimgs img{
-        height: 3.8vh;
-        width: 62%;
+        height: 4vh;
+        width: 57%;
     }
     .e img{
-        width: 60%;
+        width: 55%;
     }
     .fifthsection{
-        height: 80vh;
+        height: 90vh;
     }
     .skills{
         font-size: 40px;
@@ -422,5 +474,47 @@
         display:flex;
         flex-direction: column;
     
+    }
+}
+@media only screen and (max-width:490px){
+    .h-nav{
+        height: 61vh;
+    }
+    .bigtext1{
+        line-height: 140%;
+        font-size: 130%;
+    }
+    .bigtext2{
+        line-height: 40%;
+        font-size: 110%;
+    }
+    .firsthalf{
+        line-height: 100%;
+    }
+    .point1{
+        font-size: 3.5px;
+        height: 2vh;
+    }
+    .point2{
+        font-size: 3.5px;
+        height: 2vh;
+    }
+    .point3{
+        font-size: 3.5px;
+        height: 2vh;
+    }
+    .innersection{
+       width: 85%;
+       height: 15vh;
+    }
+    .hobbies{
+       font-size: 18px;
+       height: 3.8vh;
+    }
+    .myskills{
+        font-size: 20px;   
+    }
+    .stars{
+        font-size: 20px;    
     }
 }
