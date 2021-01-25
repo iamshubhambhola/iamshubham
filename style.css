@@ -512,7 +512,10 @@
     }
     .hobbies{
        font-size: 24px;
-       height: 4vh;
+       height: 3.9vh;
+    }
+    .hobbyimgs img{
+        height: 3.2vh;
     }
     .myskills{
         font-size: 20px;   
