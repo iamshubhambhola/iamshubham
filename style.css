@@ -1,0 +1,426 @@
+*{
+    margin:0;
+    padding:0;
+}
+.mypic{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mypic img{
+    width:50%;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 70%;
+    /*background-color: gray;*/
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 30px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.nav-list li a:hover{
+    color: gray;
+    transition: .4s;
+}
+.rightnav{
+    width: 30%;
+    display: flex;
+    /*background-color: gray;*/
+    text-align: center;
+    padding: 0 23px;
+}
+#search{
+    padding: 5px 10px;
+    font-size: 25px;
+    border: 2px solid gray;
+    border-radius: 9px;
+    vertical-align: middle;
+}
+.background{
+    background: rgba(0,0,0,0.7) url('../bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 80%;
+    height: 90%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.firstsection{
+    height: 100vh;
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+.secondhalf{
+    width: 30%;
+}
+.secondhalf img{
+    width: 80%;
+    border: 5px solid white;
+    border-radius: 380px;
+    display: block;
+    margin: auto;
+}
+.bigtext1{
+    font-size: 60px;
+    text-align:justify;
+    height: 12vh;
+}
+.bigtext2{
+    font-size: 40px;
+    text-align: justify;
+    height: 8vh;
+}
+.text{
+    font-size: 20px;
+}
+.secondsection{
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: darkgray;
+}
+.part1{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.part2{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thirdsection{
+    background-color: darkgray;
+}
+.innersection{
+    color: white;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin: auto;
+    height: 40vh;
+    background-color: darkgray;
+}
+.point1{
+    font-size: 23px;
+    margin: auto;
+    line-height: 170%;
+    border-style:solid;
+    border-color: gray;
+    padding: 2px 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.point2{
+    font-size: 23px;
+    justify-content: center;
+    margin: auto;
+    line-height: 170%;
+    border-style: solid;
+    border-color: gray;
+    padding: 2px 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.point3{
+    font-size: 23px;
+    margin: auto;
+    line-height: 170%;
+    border-style: solid;
+    border-color: gray;
+    padding: 2px 15px;
+    font-family:cursive;
+}
+.btn {
+    padding: 6px 17px;
+    margin: 6px 3px;
+    vertical-align: middle;
+    border: 3px solid white;
+    border-radius: 8px;
+    font-size: 16px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    transition: .4s;
+    color: darkgray;
+    border: 3px solid darkgray;
+}
+.fourthsection{
+    background-color: darkgray;
+    height: 80vh;
+}
+.hobby{
+    color: red;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 20vh;
+}
+.innersection1{
+    background-color: gray;
+    border-style:ridge;
+    border-color: white;
+    padding: 40px 0px;
+    width: 40%;
+    margin: auto;
+}
+
+.parts{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    margin-left: 26%;
+    justify-content: center;
+}
+.hobbies{
+    font-size: 42px;
+    color: white;
+    font-family: cursive;
+    width: 49%;
+    
+}
+.hobbyimgs img{
+    width: 80%;
+    border: 2px solid white;
+    border-radius: 200px;
+    display: block;
+}
+.e img{
+    width: 77%;
+}
+
+.fifthsection{
+    background-color: darkgray;
+    height: 100vh;
+}
+.skills{
+    color: red;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 20vh;
+}
+.innersection2{
+    background-color: gray;
+    width: 40%;
+    border-style:ridge;
+    border-color: white;
+    margin: auto;
+}
+
+.parts1{
+    display: flex;
+    flex-direction: row;
+    width: 120%;
+    margin-left: 5%;
+    justify-content: center;
+}
+.myskills{
+    font-size: 42px;
+    line-height: 170%;
+    color: white;
+    font-family: cursive;
+    justify-content: center;
+    width: 49%;
+    
+}
+.stars{
+    width: 50%;
+    font-size: 44px;
+    line-height: 170%;
+    color: gold;
+
+}
+.text-footer{
+    text-align: center;
+    padding: 10px 10px;
+    background-color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+}
+.media{
+    background-color: darkgray;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    height: 30vh;
+}
+.media li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 20px;
+    color: #fff;
+    border: 1px solid#fff;
+    border-radius: 50%;
+    transition: .5s;
+}
+.media li:hover{
+    color: #292929;
+    transition: .5s;
+    border: 1px solid #292929; 
+}
+
+
+
+
+@media only screen and (max-width: 900px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        position:static;
+    }
+    .rightnav{
+        margin: auto;
+        text-align: center;
+        flex-direction: column;
+    }
+    #search{
+        padding: 5px 10px;
+        width: 70%;
+        font-size: 20px;
+        border: 2px solid gray;
+        border-radius: 9px;
+        vertical-align: middle;
+    }
+    .btn{
+        width: 70%;
+        font-size: 10px;
+    }
+    .h-nav{
+        height: 50vh;
+    }
+    .box-main{
+        height: 65vh;
+    }
+    .secondhalf{
+        height: 30vh;
+    }
+    .secondhalf img{
+        width: 100%;    
+    }
+    .firsthalf{
+        line-height: 180%;
+    }
+    .bigtext1{
+        line-height: 90%;
+        font-size: 200%;
+    }
+    .bigtext2{
+        line-height: 90%;
+        font-size: 150%;
+    }
+    .text{
+        line-height: 100%;
+        font-size: 90%;
+    }
+    .secondsection{
+        height: 30vh;
+    }
+    .part1{
+        line-height: 90%;
+        font-size: 200%; 
+    }
+    .part2{
+        line-height: 90%;
+        font-size: 120%; 
+    }
+    .innersection{
+         border-style: double;
+         border-color: gray;
+         height: 13vh;
+    }
+    .point1{
+         font-size: 3px;
+         border-color: darkgray;
+    }
+    .point2{
+         font-size: 6px;
+         line-height: 130%;
+         border-color: darkgray;
+    }
+    .point3{
+         font-size: 6px;
+         line-height: 180%;
+         border-color: darkgray;
+    }
+    .fourthsection{
+        background-color: darkgray;
+        height: 80vh;
+    }
+    .hobby{
+        font-size: 40px;
+    }
+    .innersection1{
+        width: 80%;
+    }
+    .hobbies{
+        font-size: 25px;
+        height: 3.8vh;
+        width: 25%; 
+    }
+    .hobbyimgs img{
+        height: 4vh;
+        width: 62%;
+    }
+    .e img{
+        width: 60%;
+    }
+    .fifthsection{
+        height: 80vh;
+    }
+    .skills{
+        font-size: 40px;
+    }
+    .innersection2{
+        width: 90%;
+    }
+    .myskills{
+        font-size: 24px;
+        width: 50%;        
+    }
+    .stars{
+        font-size: 24px;
+        display:flex;
+        flex-direction: column;
+    
+    }
+}
